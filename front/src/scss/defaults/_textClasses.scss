@@ -1,0 +1,146 @@
+.large-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.heading-1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: $backgroundColor;
+}
+
+.heading-2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: $backgroundColor;
+}
+
+.heading-3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  color: $backgroundColor;
+}
+
+.heading-4 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.heading-4-bold {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.heading-5 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.heading-5-bold {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.heading-6 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.body-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.body-text-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  color: $backgroundColor;
+}
+
+.list-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  color: $backgroundColor;
+}
+
+.list-text-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: $backgroundColor;
+}
+
+.link-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  color: $primaryColor;
+}
+
+.small-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 130%;
+}
+
+.info-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 130%;
+  color: $darkGreyColor;
+}
+
+@include respond(tablet) {
+  .heading-1 {
+    font-size: 28px;
+    line-height: 110%;
+  }
+
+  .heading-2 {
+    font-size: 26px;
+    line-height: 110%;
+  }
+
+  .heading-3 {
+    font-size: 24px;
+    line-height: 110%;
+  }
+  .heading-4,
+  .heading-4-bold {
+    font-size: 20px;
+  }
+}
+
+.error-text {
+  color: $errorColor;
+}
+
+.disabled-text {
+  color: $darkGreyColor;
+}
+
+.success-text {
+  color: $successColor;
+}
+
+.primary-text {
+  color: $primaryColor;
+}
